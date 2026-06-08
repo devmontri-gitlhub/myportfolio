@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Montri Kumnertsing (Tri) - Junior Software Developer & IT Expert</title>
+    <meta name="description"
+        content="Portfolio of Montri Kumnertsing (Tri), a Junior Software Developer and IT Infrastructure Expert with 4+ years of experience in Network Security and Full-Stack Development.">
+    <meta name="keywords"
+        content="Montri Kumnertsing, Tri, Junior Software Developer, IT Infrastructure, Network Admin, Full Stack Developer, MERN Stack, Portfolio">
+    <meta name="author" content="Montri Kumnertsing">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Montri Kumnertsing - Portfolio">
+    <meta property="og:description"
+        content="Junior Software Developer & IT Infrastructure Expert based in Bangkok, Thailand.">
+    <meta property="og:image"
+        content="https://res.cloudinary.com/dp4ntrtgk/image/upload/v1780892499/1000004723_jfykfd.jpg">
+    <meta property="og:type" content="website">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Montri Kumnertsing",
+      "alternateName": "Tri",
+      "jobTitle": "Junior Software Developer",
+      "description": "IT Infrastructure Expert and Junior Full-Stack Developer",
+      "image": "https://res.cloudinary.com/dp4ntrtgk/image/upload/v1780892499/1000004723_jfykfd.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bangkok",
+        "addressCountry": "TH"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/dev-montri1986",
+        "https://github.com/devmontri-github"
+      ]
+    }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sarabun:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bgMain: '#E5E3DB',
+                        cardBg: '#FDFCF9',
+                        textMain: '#1F2937',
+                        textMuted: '#525B69',
+                        primary: '#3C5C45',
+                        primaryLight: '#4A6953',
+                        menuHover: '#F2F0EA'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Sarabun', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', 'Sarabun', sans-serif;
+            background: linear-gradient(135deg, #EAE6DF 0%, #D5D0C8 100%);
+            background-attachment: fixed;
+        }
+
+        .bento-card {
+            background-color: rgba(253, 252, 249, 0.95);
+            border-radius: 1.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+        }
+
+        /* Smooth Content Transition */
+        .content-section {
+            display: none;
+            animation: slideUpFade 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        @keyframes slideUpFade {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Active menu button style */
+        .menu-btn {
+            transition: all 0.3s ease;
+        }
+
+        .menu-btn.active {
+            border-color: #4A6953;
+            background-color: #F0EFEA;
+            transform: scale(0.97);
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Floating Menu Active state */
+        .float-btn.active {
+            color: #3C5C45;
+            transform: translateY(-4px) scale(1.1);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #EAE6DF;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #B5AFA1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #968F80;
+        }
+    </style>
+</head>
+
+<body class="text-textMain min-h-screen p-4 md:p-8 selection:bg-primary selection:text-white">
+
+    <main class="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+        <aside class="lg:col-span-1 flex flex-col gap-6">
+            <section class="bento-card flex flex-col items-center text-center" aria-label="Profile Information">
+                <div
+                    class="w-36 h-36 rounded-3xl overflow-hidden bg-gray-200 mb-5 shadow-lg border-4 border-white transform hover:scale-105 hover:shadow-xl hover:rotate-1 transition-all duration-500 ease-out relative group">
+                    <div
+                        class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-10 transition-opacity duration-300 z-10">
+                    </div>
+                    <img src="https://res.cloudinary.com/dp4ntrtgk/image/upload/v1780892499/1000004723_jfykfd.jpg"
+                        alt="Profile Picture of Montri Kumnertsing" class="w-full h-full object-cover">
+                </div>
+
+                <h1
+                    class="text-[22px] font-extrabold mb-1 bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent tracking-tight">
+                    Montri Kumnertsing (Tri)</h1>
+                <h2 class="text-xs font-semibold text-textMuted mb-5 uppercase tracking-wider">Junior Software Developer
+                    <br> IT Infrastructure Expert
+                </h2>
+
+                <p class="text-[11px] text-textMuted mb-5 text-left leading-relaxed">
+                    Possess over 4 years of experience in IT Infrastructure and Network Security, combined with
+                    Full-Stack Developer skills from Generation Thailand (JSD12). Highly committed to bridging the gap
+                    between infrastructure and software development.
+                </p>
+
+                <div
+                    class="w-full bg-white border border-gray-100 p-4 rounded-xl text-left text-[11px] text-textMuted leading-relaxed mb-5 shadow-sm hover:shadow-md transition-shadow duration-300 relative overflow-hidden">
+                    <div class="absolute -top-4 -right-4 text-gray-100 opacity-50 text-6xl z-0"><i
+                            class="fas fa-quote-right"></i></div>
+                    <i class="fas fa-quote-left text-primary/60 mb-2 block text-sm relative z-10"></i>
+                    <p class="relative z-10">
+                        "When seeking knowledge, learn like an unfilled glass.<br>
+                        When overcoming obstacles, move forward steadily like a tortoise.<br>
+                        When viewing the world, see it as it truly is.<br>
+                        And when deciding to do anything, let love guide your path."
+                    </p>
+                </div>
+
+                <nav class="flex gap-3 mt-1 w-full justify-center" aria-label="Social Media Links">
+                    <a href="https://linkedin.com/in/dev-montri1986" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn Profile"
+                        class="w-9 h-9 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white hover:-translate-y-1 hover:shadow-lg transition-all duration-300"><i
+                            class="fab fa-linkedin-in text-sm"></i></a>
+                    <a href="https://github.com/devmontri-github" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub Profile"
+                        class="w-9 h-9 bg-gray-100 text-gray-800 rounded-full flex items-center justify-center hover:bg-gray-800 hover:text-white hover:-translate-y-1 hover:shadow-lg transition-all duration-300"><i
+                            class="fab fa-github text-sm"></i></a>
+                    <a href="mailto:montri.kum.reviva@gmail.com" aria-label="Email Montri"
+                        class="w-9 h-9 bg-red-50 text-red-500 rounded-full flex items-center justify-center hover:bg-red-500 hover:text-white hover:-translate-y-1 hover:shadow-lg transition-all duration-300"><i
+                            class="fas fa-envelope text-sm"></i></a>
+                </nav>
+            </section>
+
+            <nav id="sidebar-menu" class="grid grid-cols-2 gap-3 w-full" aria-label="Main Navigation">
+                <button onclick="switchTab('menu1')" id="btn-menu1" aria-label="Full Stack Development"
+                    class="menu-btn active bg-white p-3.5 rounded-xl border-2 border-transparent flex flex-col items-center text-center gap-2 hover:bg-menuHover hover:shadow-md transition-all shadow-sm group">
+                    <div
+                        class="w-9 h-9 bg-green-50 text-green-600 rounded-xl flex items-center justify-center group-hover:bg-green-100 transition-colors">
+                        <i class="fas fa-code text-lg"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-gray-700">1. Full Stack</span>
+                </button>
+                <button onclick="switchTab('menu2')" id="btn-menu2" aria-label="Network and IT"
+                    class="menu-btn bg-white p-3.5 rounded-xl border-2 border-transparent flex flex-col items-center text-center gap-2 hover:bg-menuHover hover:shadow-md transition-all shadow-sm group">
+                    <div
+                        class="w-9 h-9 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center group-hover:bg-blue-100 transition-colors">
+                        <i class="fas fa-server text-lg"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-gray-700">2. Network & IT</span>
+                </button>
+                <button onclick="switchTab('menu3')" id="btn-menu3" aria-label="Soft Skills"
+                    class="menu-btn bg-white p-3.5 rounded-xl border-2 border-transparent flex flex-col items-center text-center gap-2 hover:bg-menuHover hover:shadow-md transition-all shadow-sm group">
+                    <div
+                        class="w-9 h-9 bg-orange-50 text-orange-600 rounded-xl flex items-center justify-center group-hover:bg-orange-100 transition-colors">
+                        <i class="fas fa-handshake text-lg"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-gray-700">3. Soft Skills</span>
+                </button>
+                <button onclick="switchTab('menu4')" id="btn-menu4" aria-label="Education"
+                    class="menu-btn bg-white p-3.5 rounded-xl border-2 border-transparent flex flex-col items-center text-center gap-2 hover:bg-menuHover hover:shadow-md transition-all shadow-sm group">
+                    <div
+                        class="w-9 h-9 bg-yellow-50 text-yellow-600 rounded-xl flex items-center justify-center group-hover:bg-yellow-100 transition-colors">
+                        <i class="fas fa-graduation-cap text-lg"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-gray-700">4. Education</span>
+                </button>
+                <button onclick="switchTab('menu5')" id="btn-menu5" aria-label="Professional Experience"
+                    class="menu-btn bg-white p-3.5 rounded-xl border-2 border-transparent flex flex-col items-center text-center gap-2 hover:bg-menuHover hover:shadow-md transition-all shadow-sm group">
+                    <div
+                        class="w-9 h-9 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center group-hover:bg-purple-100 transition-colors">
+                        <i class="fas fa-briefcase text-lg"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-gray-700">5. Experience</span>
+                </button>
+                <button onclick="switchTab('menu6')" id="btn-menu6" aria-label="Volunteer Work"
+                    class="menu-btn bg-white p-3.5 rounded-xl border-2 border-transparent flex flex-col items-center text-center gap-2 hover:bg-menuHover hover:shadow-md transition-all shadow-sm group">
+                    <div
+                        class="w-9 h-9 bg-red-50 text-red-600 rounded-xl flex items-center justify-center group-hover:bg-red-100 transition-colors">
+                        <i class="fas fa-heart text-lg"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-gray-700">6. Volunteer</span>
+                </button>
+            </nav>
+        </aside>
+
+        <article class="lg:col-span-3 flex flex-col gap-6">
+
+            <section id="menu1" class="content-section active bento-card min-h-[500px]" aria-labelledby="heading-menu1">
+                <div class="flex items-center gap-3 mb-1">
+                    <span class="w-8 h-1 bg-primary rounded-full"></span>
+                    <p class="text-xs text-primary uppercase tracking-widest font-bold">Chapter One</p>
+                </div>
+                <h3 id="heading-menu1" class="text-3xl font-extrabold mb-8 text-gray-800">About My Full Stack
+                    Development</h3>
+
+                <div
+                    class="bg-white p-6 rounded-2xl border border-gray-100 mb-5 shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-primary/20 transition-all duration-300">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div
+                            class="w-14 h-14 bg-gray-900 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-md">
+                            G</div>
+                        <div>
+                            <h4 class="font-bold text-lg text-gray-800">Generation Thailand (JSD12)</h4>
+                            <p class="text-xs font-semibold text-primary">Intensive 3-month Full-Stack Bootcamp (Mar
+                                2026 - Jun 2026)</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-textMuted leading-relaxed">
+                        Developed end-to-end web applications using the MERN Stack. Collaborated actively in team
+                        environments following Agile/Scrum methodologies to deliver clean, scalable code and
+                        high-quality user experiences.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white p-6 rounded-2xl border border-gray-100 mb-8 shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-primary/20 transition-all duration-300">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div
+                            class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl font-bold shadow-inner">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-gray-800">University Project & Technical Publication</h4>
+                            <p class="text-xs font-semibold text-blue-600">E-commerce Development & IT Guidebook Author
+                            </p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-textMuted leading-relaxed mb-4">
+                        Successfully developed a fully functional E-commerce platform for my graduation project.
+                        Combined this technical background with professional editorial experience, authoring
+                        comprehensive computer and IT guidebooks designed to simplify complex technical topics for
+                        end-users.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="bg-gray-50 text-gray-700 border border-gray-200 text-[10px] px-3 py-1.5 rounded-lg font-bold uppercase cursor-default"><i
+                                class="fab fa-php mr-1"></i> PHP</span>
+                        <span
+                            class="bg-gray-50 text-gray-700 border border-gray-200 text-[10px] px-3 py-1.5 rounded-lg font-bold uppercase cursor-default">XAMPP</span>
+                        <span
+                            class="bg-gray-50 text-gray-700 border border-gray-200 text-[10px] px-3 py-1.5 rounded-lg font-bold uppercase cursor-default">Dreamweaver</span>
+                        <span
+                            class="bg-gray-50 text-gray-700 border border-gray-200 text-[10px] px-3 py-1.5 rounded-lg font-bold uppercase cursor-default">Technical
+                            Writing</span>
+                    </div>
+                </div>
+
+                <h4 class="font-bold text-lg mb-4 text-gray-800 flex items-center"><i
+                        class="fas fa-bolt text-yellow-500 mr-2"></i>Technical Arsenal</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
+                        <span class="text-xs font-extrabold text-gray-400 uppercase tracking-widest">Frontend</span>
+                        <div class="flex gap-4 mt-3 text-4xl">
+                            <i class="fab fa-html5 text-orange-500 hover:scale-110 transition-transform cursor-pointer"
+                                title="HTML5"></i>
+                            <i class="fab fa-css3-alt text-blue-500 hover:scale-110 transition-transform cursor-pointer"
+                                title="CSS3"></i>
+                            <i class="fab fa-js text-yellow-400 hover:scale-110 transition-transform cursor-pointer"
+                                title="JavaScript"></i>
+                            <i class="fab fa-react text-cyan-500 hover:scale-110 transition-transform cursor-pointer"
+                                title="React"></i>
+                        </div>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
+                        <span class="text-xs font-extrabold text-gray-400 uppercase tracking-widest">Backend & DB</span>
+                        <div class="flex flex-wrap gap-4 mt-3 text-4xl items-center">
+                            <i class="fab fa-node-js text-green-500 hover:scale-110 transition-transform cursor-pointer"
+                                title="Node.js"></i>
+                            <span
+                                class="text-[10px] font-bold bg-gray-100 text-gray-700 px-2 py-1 rounded-md tracking-wider">EXPRESS</span>
+                            <i class="fab fa-php text-indigo-500 hover:scale-110 transition-transform cursor-pointer"
+                                title="PHP"></i>
+                            <i class="fas fa-leaf text-green-600 text-3xl hover:scale-110 transition-transform cursor-pointer"
+                                title="MongoDB"></i>
+                            <i class="fas fa-database text-blue-400 text-3xl hover:scale-110 transition-transform cursor-pointer"
+                                title="SQL"></i>
+                        </div>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
+                        <span class="text-xs font-extrabold text-gray-400 uppercase tracking-widest">Infra &
+                            DevOps</span>
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700"><i
+                                    class="fab fa-git-alt text-orange-500 mr-1"></i> Git</span>
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700"><i
+                                    class="fab fa-docker text-blue-500 mr-1"></i> Docker</span>
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700">XAMPP</span>
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700">VMWare</span>
+                        </div>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
+                        <span class="text-xs font-extrabold text-gray-400 uppercase tracking-widest">Design &
+                            Office</span>
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700"><i
+                                    class="fab fa-wordpress text-blue-600 mr-1"></i> WP</span>
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700"><i
+                                    class="fab fa-joomla text-green-600 mr-1"></i> Joomla</span>
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700"><i
+                                    class="fas fa-palette text-orange-500 mr-1"></i> Illustrator</span>
+                            <span
+                                class="bg-gray-50 border border-gray-200 text-xs px-3 py-1.5 rounded-full text-gray-700"><i
+                                    class="far fa-file-word text-blue-500 mr-1"></i> Office 365</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu2" class="content-section bento-card min-h-[500px]" aria-labelledby="heading-menu2">
+                <div class="flex items-center gap-3 mb-1">
+                    <span class="w-8 h-1 bg-blue-600 rounded-full"></span>
+                    <p class="text-xs text-blue-600 uppercase tracking-widest font-bold">Chapter Two</p>
+                </div>
+                <h3 id="heading-menu2" class="text-3xl font-extrabold mb-8 text-gray-800">Network and IT Support</h3>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div
+                        class="lg:col-span-1 bg-gradient-to-br from-primary to-[#2c4032] text-white p-6 rounded-2xl shadow-lg flex flex-col transform hover:-translate-y-1 transition-transform duration-300">
+                        <div class="text-4xl mb-4 text-white/90"><i class="fas fa-network-wired"></i></div>
+                        <h4 class="font-bold text-xl mb-3">Infrastructure Leadership</h4>
+                        <p class="text-[12px] text-gray-200 mb-5 leading-relaxed">
+                            Extensive experience in planning, deploying, and troubleshooting comprehensive IT
+                            infrastructure environments for enterprise clients and factories. Managed enterprise
+                            servers, Active Directory (AD), and organization-wide Group Policies.
+                        </p>
+                        <h4 class="font-bold text-sm mb-2 mt-auto border-t border-white/20 pt-4 text-green-300">Security
+                            & Network</h4>
+                        <ul class="text-[11px] text-gray-200 list-disc list-inside space-y-1.5">
+                            <li>Firewall (FortiGate, SonicWall)</li>
+                            <li>Router Config (Mikrotik, Cisco)</li>
+                            <li>VPN, Backup (NAS, Cloud)</li>
+                        </ul>
+                    </div>
+
+                    <div class="lg:col-span-2 space-y-4">
+                        <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
+                            <h4 class="font-bold text-sm mb-3 text-gray-800 flex items-center"><i
+                                    class="fas fa-shield-alt text-blue-600 mr-2 text-lg"></i>Networking & Security</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="bg-blue-50 border border-blue-100 text-[11px] px-3 py-1.5 rounded-lg text-blue-800"><b>Router:</b>
+                                    TP-Link, Asus, SonicWall, FortiGate, Mikrotik</span>
+                                <span
+                                    class="bg-blue-50 border border-blue-100 text-[11px] px-3 py-1.5 rounded-lg text-blue-800"><b>Firewall:</b>
+                                    FortiGate, SonicWall</span>
+                                <span
+                                    class="bg-blue-50 border border-blue-100 text-[11px] px-3 py-1.5 rounded-lg text-blue-800"><b>Switch
+                                        L3:</b> Cisco, HPE, TP-Link, D-Link</span>
+                                <span
+                                    class="bg-blue-50 border border-blue-100 text-[11px] px-3 py-1.5 rounded-lg text-blue-800"><b>Access
+                                        Point:</b> Aruba, Asus, TP-Link</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
+                            <h4 class="font-bold text-sm mb-3 text-gray-800 flex items-center"><i
+                                    class="fas fa-server text-green-600 mr-2 text-lg"></i>Servers & Infrastructure</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="bg-green-50 border border-green-100 text-[11px] px-3 py-1.5 rounded-lg text-green-800"><b>Server:</b>
+                                    Dell, HPE</span>
+                                <span
+                                    class="bg-green-50 border border-green-100 text-[11px] px-3 py-1.5 rounded-lg text-green-800"><b>Backup:</b>
+                                    NAS, Qnap, Cloud, HDD</span>
+                                <span
+                                    class="bg-green-50 border border-green-100 text-[11px] px-3 py-1.5 rounded-lg text-green-800"><b>Server
+                                        SW:</b> AD, Group Policy, RDP</span>
+                                <span
+                                    class="bg-green-50 border border-green-100 text-[11px] px-3 py-1.5 rounded-lg text-green-800"><b>Virtualization:</b>
+                                    VMWare, VirtualBox</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
+                            <h4 class="font-bold text-sm mb-3 text-gray-800 flex items-center"><i
+                                    class="fas fa-laptop text-orange-500 mr-2 text-lg"></i>Hardware & OS Tools</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="bg-orange-50 border border-orange-100 text-[11px] px-3 py-1.5 rounded-lg text-orange-800"><b>Hardware:</b>
+                                    Acer, ASUS, Dell, HP, CCTV</span>
+                                <span
+                                    class="bg-orange-50 border border-orange-100 text-[11px] px-3 py-1.5 rounded-lg text-orange-800"><b>OS:</b>
+                                    Windows, macOS, Linux</span>
+                                <span
+                                    class="bg-orange-50 border border-orange-100 text-[11px] px-3 py-1.5 rounded-lg text-orange-800"><b>Enterprise
+                                        SW:</b> Express, BPlus, MS Office</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu3" class="content-section bento-card min-h-[500px]" aria-labelledby="heading-menu3">
+                <div class="flex items-center gap-3 mb-1">
+                    <span class="w-8 h-1 bg-orange-500 rounded-full"></span>
+                    <p class="text-xs text-orange-500 uppercase tracking-widest font-bold">Chapter Three</p>
+                </div>
+                <h3 id="heading-menu3" class="text-3xl font-extrabold mb-8 text-gray-800">Soft Skills & Core
+                    Competencies</h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 text-white">
+                    <div
+                        class="bg-gradient-to-br from-[#d4704b] to-[#b85b39] p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[170px] shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                        <i class="fas fa-chalkboard-teacher text-4xl mb-4 text-white/90"></i>
+                        <span class="text-base font-bold leading-tight">Technical Communication</span>
+                        <p class="text-[11px] mt-3 opacity-90 leading-relaxed text-orange-50">Simplifying highly complex
+                            technical concepts for end-users via IT guidebook authoring and teaching.</p>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-[#e08e2f] to-[#c77a22] p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[170px] shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                        <i class="fas fa-users text-4xl mb-4 text-white/90"></i>
+                        <span class="text-base font-bold leading-tight">Cross-Functional Leadership</span>
+                        <p class="text-[11px] mt-3 opacity-90 leading-relaxed text-yellow-50">Strong leadership and
+                            goal-driven execution gained from roles as Team Lead and University Club President.</p>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-[#536878] to-[#405261] p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[170px] shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                        <i class="fas fa-handshake text-4xl mb-4 text-white/90"></i>
+                        <span class="text-base font-bold leading-tight">Stakeholder Coordination</span>
+                        <p class="text-[11px] mt-3 opacity-90 leading-relaxed text-blue-50">Professional
+                            enterprise-level coordination with government agencies and top-tier technology vendors.</p>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-[#96638f] to-[#7a4c73] p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[170px] shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                        <i class="fas fa-running text-4xl mb-4 text-white/90"></i>
+                        <span class="text-base font-bold leading-tight">High Discipline & Synergy</span>
+                        <p class="text-[11px] mt-3 opacity-90 leading-relaxed text-purple-50">Exceptional
+                            self-discipline and pressure handling cultivated from provincial and national sports
+                            competitions.</p>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-[#457894] to-[#335e75] p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[170px] shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                        <i class="fas fa-laptop-code text-4xl mb-4 text-white/90"></i>
+                        <span class="text-base font-bold leading-tight">Systems Thinking</span>
+                        <p class="text-[11px] mt-3 opacity-90 leading-relaxed text-cyan-50">Advanced systematic analysis
+                            and deep troubleshooting developed through years of managing IT infrastructures.</p>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-[#628a5b] to-[#4d7047] p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[170px] shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                        <i class="fas fa-seedling text-4xl mb-4 text-white/90"></i>
+                        <span class="text-base font-bold leading-tight">Resilience & Growth</span>
+                        <p class="text-[11px] mt-3 opacity-90 leading-relaxed text-green-50">Highly adaptive in
+                            challenging environments, demonstrated by launching agriculture setups during COVID-19.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu4" class="content-section bento-card min-h-[500px]" aria-labelledby="heading-menu4">
+                <div class="flex items-center gap-3 mb-1">
+                    <span class="w-8 h-1 bg-yellow-500 rounded-full"></span>
+                    <p class="text-xs text-yellow-600 uppercase tracking-widest font-bold">Chapter Four</p>
+                </div>
+                <h3 id="heading-menu4" class="text-3xl font-extrabold mb-8 text-gray-800">Education & Certificates</h3>
+
+                <div class="relative border-l-4 border-primary/30 ml-4 space-y-10 pb-4">
+                    <div class="relative pl-8 group hover:-translate-y-1 transition-transform">
+                        <div
+                            class="absolute w-5 h-5 bg-primary rounded-full -left-[11px] top-1 border-4 border-[#F8F7F4] group-hover:scale-125 transition-transform">
+                        </div>
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1 rounded-md shadow-sm">2026</span>
+                        <h4 class="text-xl font-bold mt-3 text-gray-800">Junior Software Developer Bootcamp</h4>
+                        <p class="text-sm font-semibold text-gray-600 mt-1">Generation Thailand (Cohort 12)</p>
+                        <p class="text-xs text-textMuted mt-2 bg-white p-3 rounded-xl border border-gray-100 shadow-sm">
+                            Intensive 3-month Full-Stack Development program focusing on MERN stack, Agile
+                            methodologies, and real-world team projects.</p>
+                    </div>
+
+                    <div class="relative pl-8 group hover:-translate-y-1 transition-transform">
+                        <div
+                            class="absolute w-5 h-5 bg-gray-400 rounded-full -left-[11px] top-1 border-4 border-[#F8F7F4] group-hover:scale-125 transition-transform group-hover:bg-primary/60">
+                        </div>
+                        <span class="text-xs font-bold text-gray-700 bg-gray-200 px-3 py-1 rounded-md shadow-sm">2006 -
+                            2010</span>
+                        <h4 class="text-xl font-bold mt-3 text-gray-800">Bachelor of Computer Science (B.Sc.)</h4>
+                        <p class="text-sm font-semibold text-gray-600 mt-1">Rattanabundit University</p>
+                        <p
+                            class="text-xs text-textMuted mt-2 bg-white inline-block px-3 py-1 rounded-lg border border-gray-100 shadow-sm">
+                            GPA: 2.64</p>
+                    </div>
+
+                    <div class="relative pl-8 group hover:-translate-y-1 transition-transform">
+                        <div
+                            class="absolute w-5 h-5 bg-gray-400 rounded-full -left-[11px] top-1 border-4 border-[#F8F7F4] group-hover:scale-125 transition-transform group-hover:bg-primary/60">
+                        </div>
+                        <span class="text-xs font-bold text-gray-700 bg-gray-200 px-3 py-1 rounded-md shadow-sm">2002 -
+                            2005</span>
+                        <h4 class="text-xl font-bold mt-3 text-gray-800">Vocational Certificate in Electronics</h4>
+                        <p class="text-sm font-semibold text-gray-600 mt-1">Singburi Technical College</p>
+                        <p
+                            class="text-xs text-textMuted mt-2 bg-white inline-block px-3 py-1 rounded-lg border border-gray-100 shadow-sm">
+                            GPA: 2.74</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu5" class="content-section bento-card min-h-[500px]" aria-labelledby="heading-menu5">
+                <div class="flex items-center gap-3 mb-1">
+                    <span class="w-8 h-1 bg-purple-500 rounded-full"></span>
+                    <p class="text-xs text-purple-600 uppercase tracking-widest font-bold">Chapter Five</p>
+                </div>
+                <h3 id="heading-menu5" class="text-3xl font-extrabold mb-8 text-gray-800">Professional Experience</h3>
+
+                <div class="space-y-5">
+                    <div
+                        class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:border-purple-200 hover:-translate-y-1 transition-all duration-300 flex flex-col md:flex-row gap-4 justify-between items-start">
+                        <div>
+                            <h4 class="font-bold text-lg text-purple-700">IT Support Specialist / Network Admin</h4>
+                            <p class="text-sm font-bold text-gray-700 mb-3">Aquasia Company</p>
+                            <ul class="text-xs text-textMuted list-disc list-inside space-y-1.5 leading-relaxed">
+                                <li>Planned, deployed, and systematically maintained end-to-end IT infrastructure
+                                    systems for factories and corporate clients.</li>
+                                <li>Administered Windows Server platforms, Active Directory (AD), Domain Users,
+                                    Permissions, and corporate Group Policies.</li>
+                                <li>Configured and secured network equipment including Firewalls (FortiGate, SonicWall),
+                                    Routers, and L3 Switches.</li>
+                                <li>Supervised data backup integrity across corporate NAS (Qnap), Cloud, and External
+                                    Storage systems.</li>
+                            </ul>
+                        </div>
+                        <span
+                            class="text-[10px] font-bold bg-purple-50 text-purple-700 px-3 py-1.5 rounded-lg whitespace-nowrap shadow-sm border border-purple-100">Nov
+                            2021 - Dec 2025</span>
+                    </div>
+
+                    <div
+                        class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:border-green-200 hover:-translate-y-1 transition-all duration-300 flex flex-col md:flex-row gap-4 justify-between items-start">
+                        <div>
+                            <h4 class="font-bold text-lg text-primary">Self-Sustaining Farming (COVID-19 Period)</h4>
+                            <p class="text-sm font-bold text-gray-700 mb-3">Self-Reliant Agricultural Layout &
+                                Management</p>
+                            <ul class="text-xs text-textMuted list-disc list-inside space-y-1.5 leading-relaxed">
+                                <li>Designed and optimized land allocation following the Philosophy of Sufficiency
+                                    Economy to establish critical food security.</li>
+                                <li>Constructed robust farm infrastructure, designing systematic water, soil, and crop
+                                    rotation pipelines using Systems Thinking.</li>
+                                <li>Controlled operating expenditures, scheduled output workflows, and optimized limited
+                                    resources.</li>
+                            </ul>
+                        </div>
+                        <span
+                            class="text-[10px] font-bold bg-green-50 text-green-700 px-3 py-1.5 rounded-lg whitespace-nowrap shadow-sm border border-green-100">2019
+                            - 2021</span>
+                    </div>
+
+                    <div
+                        class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:border-orange-200 hover:-translate-y-1 transition-all duration-300 flex flex-col md:flex-row gap-4 justify-between items-start">
+                        <div>
+                            <h4 class="font-bold text-lg text-orange-600">Head of Data Import Team & Provincial
+                                Coordinator</h4>
+                            <p class="text-sm font-bold text-gray-700 mb-3">Samart Corporation PCL</p>
+                            <ul class="text-xs text-textMuted list-disc list-inside space-y-1.5 leading-relaxed">
+                                <li>Served as Team Lead and primary Provincial Coordinator stationed in Ang Thong
+                                    Province.</li>
+                                <li>Managed, supervised, and audited the database accuracy of large-scale land records
+                                    ingestion workflows.</li>
+                                <li>Liaised directly with the Treasury Department and municipal officials to drive
+                                    seamless project deliveries.</li>
+                            </ul>
+                        </div>
+                        <span
+                            class="text-[10px] font-bold bg-orange-50 text-orange-700 px-3 py-1.5 rounded-lg whitespace-nowrap shadow-sm border border-orange-100">Nov
+                            2014 - Nov 2017</span>
+                    </div>
+
+                    <div
+                        class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:border-blue-200 hover:-translate-y-1 transition-all duration-300 flex flex-col md:flex-row gap-4 justify-between items-start">
+                        <div>
+                            <h4 class="font-bold text-lg text-blue-600">Editor & IT Writer (Editorial Team)</h4>
+                            <p class="text-sm font-bold text-gray-700 mb-3">Simplify Publisher</p>
+                            <ul class="text-xs text-textMuted list-disc list-inside space-y-1.5 leading-relaxed">
+                                <li>Authored, compiled, and edited widely distributed reference books and guidebooks
+                                    concerning PCs and IT.</li>
+                                <li>Produced actionable instructional copy covering software suites and online marketing
+                                    strategies.</li>
+                            </ul>
+                        </div>
+                        <span
+                            class="text-[10px] font-bold bg-blue-50 text-blue-700 px-3 py-1.5 rounded-lg whitespace-nowrap shadow-sm border border-blue-100">Apr
+                            2011 - Apr 2014</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu6" class="content-section bento-card min-h-[500px]" aria-labelledby="heading-menu6">
+                <div class="flex items-center gap-3 mb-1">
+                    <span class="w-8 h-1 bg-red-500 rounded-full"></span>
+                    <p class="text-xs text-red-600 uppercase tracking-widest font-bold">Chapter Six</p>
+                </div>
+                <h3 id="heading-menu6" class="text-3xl font-extrabold mb-8 text-gray-800">Volunteer Work &
+                    Extracurriculars</h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div
+                        class="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                        <div
+                            class="h-40 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-500 text-5xl group-hover:scale-105 transition-transform duration-500">
+                            <i class="fas fa-campground drop-shadow-md"></i>
+                        </div>
+                        <div class="p-6 relative bg-white z-10">
+                            <h4 class="font-bold text-lg mb-3 text-gray-800">Community Support & Camp</h4>
+                            <ul class="text-xs text-textMuted list-disc list-inside space-y-2 leading-relaxed">
+                                <li><b>Family & Children Camp:</b> Organized life-skills development initiatives and
+                                    youth workshops annually since graduation.</li>
+                                <li><b>Community Teaching:</b> Voluntarily served as an English educator for
+                                    underprivileged youths in Khlong Sam Wa.</li>
+                                <li><b>Time Bank Project:</b> Taught moral principles and basic ethics to preschool
+                                    children.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                        <div
+                            class="h-40 bg-gradient-to-br from-yellow-100 to-amber-200 flex items-center justify-center text-yellow-600 text-5xl group-hover:scale-105 transition-transform duration-500">
+                            <i class="fas fa-medal drop-shadow-md"></i>
+                        </div>
+                        <div class="p-6 relative bg-white z-10">
+                            <h4 class="font-bold text-lg mb-3 text-gray-800">Athletics & Leadership</h4>
+                            <ul class="text-xs text-textMuted list-disc list-inside space-y-2 leading-relaxed">
+                                <li><b>Provincial Football Player:</b> Committed athlete representing the municipality
+                                    in regional tournaments.</li>
+                                <li><b>Thailand National Games:</b> Competed in national games 3 times (Achieving 4th
+                                    place nationwide in Kabaddi).</li>
+                                <li><b>National Vocational Games:</b> Represented the region 2 times, successfully
+                                    winning the 1st place championship.</li>
+                                <li><b>University Leadership:</b> Served as University Christian Club President.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-r from-gray-900 to-gray-800 text-white rounded-2xl p-8 md:col-span-2 flex flex-col items-center text-center justify-center mt-2 shadow-2xl hover:shadow-primary/20 transition-shadow">
+                        <i class="fas fa-quote-left text-4xl mb-4 text-primary opacity-80"></i>
+                        <p class="text-base md:text-lg font-medium italic tracking-wide leading-relaxed text-gray-100">
+                            "Growing through learning,<br> strengthening through competition,<br> and finding value
+                            through sharing."
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <nav id="floating-menu"
+        class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-md shadow-[0_10px_40px_rgba(0,0,0,0.15)] rounded-full px-5 py-3 flex gap-4 z-50 transition-all duration-500 translate-y-32 opacity-0 pointer-events-none border border-gray-200"
+        aria-label="Floating Navigation">
+        <button onclick="switchTab('menu1')"
+            class="float-btn text-gray-400 hover:text-green-600 transition-all duration-300 active"
+            aria-label="Full Stack"><i class="fas fa-code text-xl"></i></button>
+        <button onclick="switchTab('menu2')"
+            class="float-btn text-gray-400 hover:text-blue-600 transition-all duration-300" aria-label="Network & IT"><i
+                class="fas fa-server text-xl"></i></button>
+        <button onclick="switchTab('menu3')"
+            class="float-btn text-gray-400 hover:text-orange-600 transition-all duration-300"
+            aria-label="Soft Skills"><i class="fas fa-handshake text-xl"></i></button>
+        <button onclick="switchTab('menu4')"
+            class="float-btn text-gray-400 hover:text-yellow-600 transition-all duration-300" aria-label="Education"><i
+                class="fas fa-graduation-cap text-xl"></i></button>
+        <button onclick="switchTab('menu5')"
+            class="float-btn text-gray-400 hover:text-purple-600 transition-all duration-300" aria-label="Experience"><i
+                class="fas fa-briefcase text-xl"></i></button>
+        <button onclick="switchTab('menu6')"
+            class="float-btn text-gray-400 hover:text-red-600 transition-all duration-300" aria-label="Volunteer"><i
+                class="fas fa-heart text-xl"></i></button>
+    </nav>
+    <script>
+        function switchTab(tabId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Remove active state from sidebar buttons
+            const buttons = document.querySelectorAll('.menu-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Remove active state from floating menu buttons
+            const floatButtons = document.querySelectorAll('.float-btn');
+            floatButtons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Activate chosen section
+            document.getElementById(tabId).classList.add('active');
+
+            // Activate corresponding sidebar button
+            document.getElementById('btn-' + tabId).classList.add('active');
+
+            // Activate corresponding floating button (by index mapping)
+            const tabNumber = parseInt(tabId.replace('menu', '')) - 1;
+            if (floatButtons[tabNumber]) {
+                floatButtons[tabNumber].classList.add('active');
+            }
+
+            // Scroll to top on mobile for better UX when switching tabs
+            if (window.innerWidth < 1024) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        // Intersection Observer for Floating Menu
+        document.addEventListener("DOMContentLoaded", function () {
+            const sidebarMenu = document.getElementById('sidebar-menu');
+            const floatingMenu = document.getElementById('floating-menu');
+
+            if (sidebarMenu && floatingMenu) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (!entry.isIntersecting) {
+                            // When sidebar menu is OUT OF VIEW -> Show floating menu
+                            floatingMenu.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+                        } else {
+                            // When sidebar menu is IN VIEW -> Hide floating menu
+                            floatingMenu.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+                        }
+                    });
+                }, { threshold: 0.1 }); // Trigger when 10% of the menu is visible/hidden
+
+                observer.observe(sidebarMenu);
+            }
+        });
+    </script>
+</body>
+
+</html>
